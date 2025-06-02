@@ -1,0 +1,67 @@
+
+<section class="px-6 py-10  max-w-screen-xl mx-auto">
+  <div class="mb-6 flex items-center gap-4 text-sm text-gray-600">
+    <a [routerLink]="['/catalog']" class="flex items-center gap-1 text-gray-600 hover:underline">
+      ← Назад в каталог
+    </a>
+
+    <span class="inline-block px-2 py-1 bg-gray-100 text-xs rounded text-gray-800">В наличии</span>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div class="space-y-5">
+      <h1 class="text-3xl font-bold text-gray-900">Настенное панно «Волна»</h1>
+      <p class="text-gray-700 text-base">
+        Изысканное настенное панно из натурального дерева с резным узором, создающим эффект волны. Уникальное произведение искусства, которое станет центральным элементом вашего интерьера.
+      </p>
+      <div class="flex gap-4 pt-2">
+        <button class="bg-black text-white px-6 py-2 rounded text-sm hover:bg-gray-900">Заказать</button>
+        <button class="border border-gray-300 px-6 py-2 rounded text-sm text-gray-800 hover:bg-gray-50">Взять в аренду</button>
+      </div>
+    </div>
+
+    <div class="bg-gray-100 h-80 rounded-lg flex items-center justify-center text-sm text-gray-500">
+      Основное изображение продукта
+    </div>
+  </div>
+</section>
+<section class="px-6 py-12 bg-white max-w-screen-xl mx-auto">
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mb-12">
+    <div class="lg:col-span-2">
+      <h2 class="text-xl font-semibold mb-4">Описание</h2>
+      <p class="text-gray-700 leading-relaxed mb-4">
+        Настенное панно «Волна» — это уникальное произведение искусства, созданное вручную из массива натурального дерева. Каждый элемент панно тщательно проработан мастером, создавая неповторимый эффект движения волны.
+      </p>
+      <p class="text-gray-700 leading-relaxed">
+        Особая техника резьбы и многослойная структура создают впечатляющую игру света и тени, которая меняется в зависимости от освещения и угла зрения. Это делает панно не просто элементом декора, а настоящим живым произведением искусства.
+      </p>
+    </div>
+
+    <!-- Информация -->
+    <div class="bg-gray-50 border border-gray-200 p-5 rounded-lg">
+      <h3 class="text-sm font-semibold mb-3">Информация</h3>
+      <p class="text-sm text-gray-700 flex items-start gap-2">
+     <img src="assets/image/whatsapp.png" class="w-5 h-5 " alt="">
+        Весь процесс аренды и покупки обсуждается лично с владельцем в WhatsApp
+      </p>
+    </div>
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold mb-4">Детали</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+      <div class="bg-gray-100 p-4 rounded">
+        <p class="text-sm text-gray-500">Размеры</p>
+        <p class="font-medium text-gray-900">120 x 80 см</p>
+      </div>
+      <div class="bg-gray-100 p-4 rounded">
+        <p class="text-sm text-gray-500">Вес</p>
+        <p class="font-medium text-gray-900">8.5 кг</p>
+      </div>
+      <div class="bg-gray-100 p-4 rounded">
+        <p class="text-sm text-gray-500">Покрытие</p>
+        <p class="font-medium text-gray-900">Натуральное масло</p>
+      </div>
+    </div>
+  </div>
+</section>
